@@ -8,7 +8,7 @@ Quick and simple 128-bit AES encrypted NFC compatible login tool.
 ## Requirements
 - Arduino Pro Micro (Leonardo)
 - PN532 NFC RFID Module
-- 4-byte UID ISO/IEC 14443 Type A 13.56 MHz Card
+- 4-byte UID ISO/IEC 14443 Type A 13.56 MHz Chip
 
 ## Setup
 1. Connect SDA to Digital Pin 2
