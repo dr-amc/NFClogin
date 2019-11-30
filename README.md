@@ -16,9 +16,9 @@ Quick and simple 128-bit AES encrypted NFC compatible login tool.
 3. Set PN532 DIP switches to I2C
 
 ## Usage
-1. Use AESencrypt.ino to generate Base64 encoded password.
-2. Paste encoded password into AESdecrypt.ino and run to verify.
-3. Paste encoded password into NFClogin.ino to use as HID.
+1. Use [AESencrypt.ino](AESencrypt.ino) to generate Base64 encoded password.
+2. Paste encoded password into [AESdecrypt.ino](AESdecrypt.ino) and run to verify.
+3. Paste encoded password into [NFClogin.ino](NFClogin.ino) to use as a HID.
 
 ## Limitations
 - Maximum password size currently limited to 16 characters.
