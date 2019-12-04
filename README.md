@@ -2,6 +2,7 @@
 Quick and simple 128-bit AES encrypted NFC compatible login tool.
 
 ## To Do
+- Add 7-byte UID support.
 - Increase maximum password size.
 - Add full documentation and usage guide.
 
@@ -11,9 +12,9 @@ Quick and simple 128-bit AES encrypted NFC compatible login tool.
 - 4-byte UID ISO/IEC 14443 Type A 13.56 MHz Chip
 
 ## Setup
-1. Connect SDA to Digital Pin 2
-2. Connect SCL to Digital Pin 3
-3. Set PN532 DIP switches to I2C
+1. Connect SDA to Digital Pin 2. 
+2. Connect SCL to Digital Pin 3. 
+3. Set PN532 DIP switches to I2C. 
 
 ## Usage
 1. Use [AESencrypt.ino](AESencrypt.ino) to generate Base64 encoded password.
@@ -21,4 +22,5 @@ Quick and simple 128-bit AES encrypted NFC compatible login tool.
 3. Paste encoded password into [NFClogin.ino](NFClogin.ino) to use as a HID.
 
 ## Limitations
+- Encryption limited to a single 4-byte UID. 
 - Maximum password size currently limited to 16 characters.
